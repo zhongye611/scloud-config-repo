@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    service-a:
+      path: /aaa/**
+      serviceId: hello-service
+    service-b:
+      path: /service-b/**
+      serviceId: hello-service
